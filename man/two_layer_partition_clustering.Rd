@@ -2,11 +2,8 @@
 % Please edit documentation in R/two_layer_partition_clustering.R
 \name{two_layer_partition_clustering}
 \alias{two_layer_partition_clustering}
-\title{Description of two_layer_partition_clustering.R.
-This function implements the two-layer partition clustering.
-See Robust two-layer partition clustering of sparse multivariate functional data,
-Zhuo Qu, Wenlin Dai, and Marc G. Genton, https://www.sciencedirect.com/science/article/pii/S2452306223000138
-This function implements algorithm 2 in the paper.}
+\title{
+This function implements the two-layer partition clustering step in the robust two-layer partition clustering method.}
 \usage{
 two_layer_partition_clustering(neighbour_matrix)
 }
@@ -20,7 +17,7 @@ A list of two elements:
 }
 \description{
 Description of two_layer_partition_clustering.R.
-This function implements the two-layer partition clustering.
+This function implements the two-layer partition clustering step.
 See Robust two-layer partition clustering of sparse multivariate functional data,
 Zhuo Qu, Wenlin Dai, and Marc G. Genton, https://www.sciencedirect.com/science/article/pii/S2452306223000138
 This function implements algorithm 2 in the paper.
