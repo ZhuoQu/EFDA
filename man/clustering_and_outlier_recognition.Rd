@@ -2,11 +2,8 @@
 % Please edit documentation in R/clustering_and_outlier_recognition.R
 \name{clustering_and_outlier_recognition}
 \alias{clustering_and_outlier_recognition}
-\title{Description of two_layer_partition_clustering.R.
-This function implements the two-layer partition clustering.
-See Robust two-layer partition clustering of sparse multivariate functional data,
-Zhuo Qu, Wenlin Dai, and Marc G. Genton, https://www.sciencedirect.com/science/article/pii/S2452306223000138
-This function implements algorithm 3 in the paper.}
+\title{
+This function implements the clustering and outlier recognition step in the robust two-layer partition clustering.}
 \usage{
 clustering_and_outlier_recognition(
   cluster_result,
@@ -34,8 +31,8 @@ A list of three elements:
 threshold determined by alpha_c.
 }
 \description{
-Description of two_layer_partition_clustering.R.
-This function implements the two-layer partition clustering.
+Description of clustering_and_outlier_recognition.R.
+This function implements the robust two-layer partition clustering.
 See Robust two-layer partition clustering of sparse multivariate functional data,
 Zhuo Qu, Wenlin Dai, and Marc G. Genton, https://www.sciencedirect.com/science/article/pii/S2452306223000138
 This function implements algorithm 3 in the paper.
