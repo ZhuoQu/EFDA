@@ -18,7 +18,7 @@ a non-negative, symmetric distance matrix
 \description{
 Description of elastic_time_distance.R.
 This function returns the distance matrix for the multivariate functional data.
-#' See Robust two-layer partition clustering of sparse multivariate functional data,
+See Robust two-layer partition clustering of sparse multivariate functional data,
 Zhuo Qu, Wenlin Dai, and Marc G. Genton, https://www.sciencedirect.com/science/article/pii/S2452306223000138
 This function implements algorithm 1 in the paper.
 }
