@@ -1,0 +1,39 @@
+Package: EFDA
+Type: Package
+Title: Exploratory Functional Data Analysis
+Version: 0.1.0
+Author: Zhuo Qu, Wenlin Dai, Carolina Euan, Ying Sun, Marc G. Genton
+Maintainer: Zhuo Qu <zhuo.qu@stjude.org>, Wenlin.Dai<wenlin.dai@ruc.edu.cn>
+Description: This package includes mainly three parts: 
+              1. directional outlyingness for functional data,
+              2. sparse functional boxplot and intensity sparse functional boxplot, 
+              3. a robust two-layer partition clustering method. 
+              Directional outlyingness assumes functional data on common grids;
+              The visualization includes sparse functional boxplot 
+              and the intensity sparse functional boxplot and thier two-stage forms.
+              Those visualization tools can be aplied to both complete and sparse
+              univariate/multivariate functional data. 
+Depends:
+    fda.usc, 
+    MASS, 
+    rlist,
+    plotfunctions, 
+    grDevices,
+    spatstat.geom,
+    spatstat,
+    GGally,
+    funData, 
+    MFPCA, 
+    fdapace,
+    gdata
+Suggests:
+    refund,
+    fda,
+    mrfDepth,
+    roahd,
+    spam,
+    testthat
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
