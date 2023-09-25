@@ -2,8 +2,8 @@
 % Please edit documentation in R/findneighbours.R
 \name{findneighbours}
 \alias{findneighbours}
-\title{Description of findneighbours.R.
-This function returns the logical matrix. Each row shows whether each subject is the neighbor.}
+\title{
+This function returns a logical matrix. Row i shows whether each subject is a neighbor of subject i.}
 \usage{
 findneighbours(distance_matrix, theta = 0.05)
 }
@@ -17,7 +17,7 @@ a logical matrix
 }
 \description{
 Description of findneighbours.R.
-This function returns the logical matrix. Each row shows whether each subject is the neighbor.
+This function returns a logical matrix. Each row shows whether each subject is the neighbor.
 }
 \examples{
 library(fda); canada_temp <- t(CanadianWeather$monthlyTemp) ## a matrix of 35 stations and 12 months
